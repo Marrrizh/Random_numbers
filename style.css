@@ -5,3 +5,15 @@
     border-radius: 5px;
     text-align: center;
 }
+
+#newGameBtn {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    background: #69b5bb;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 1rem;
+}
