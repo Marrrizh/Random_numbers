@@ -29,7 +29,11 @@ function checkNumber() {
 
 
 function newGame(){
-  
+  numberInput.value = "";
+  attempts = 0;
+  attemptsDisplay.textContent = attempts; 
+   hintText.textContent = "";
+   secretNumber = Math.floor(Math.random() * 100) + 1;
 }
 checkButton.addEventListener('click', checkNumber);
 newGameBtn.addEventListener('click', newGame);
