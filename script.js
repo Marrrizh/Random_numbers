@@ -27,4 +27,9 @@ function checkNumber() {
     }
 }
 
+
+function newGame(){
+  
+}
 checkButton.addEventListener('click', checkNumber);
+newGameBtn.addEventListener('click', newGame);
