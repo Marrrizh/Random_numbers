@@ -2,6 +2,7 @@ let numberInput = document.getElementById('numberInput');
 let checkButton = document.getElementById('checkBtn');
 let hintText = document.getElementById('hintText');
 let attemptsDisplay=document.getElementById('attemptsCounter');
+let newGameBtn = document.getElementById('newGameBtn');
 
 let attempts=0;
 
